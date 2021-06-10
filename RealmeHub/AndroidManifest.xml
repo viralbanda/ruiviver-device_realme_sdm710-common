@@ -21,7 +21,7 @@
 
     <application
             android:icon="@android:drawable/sym_def_app_icon"
-            android:label="@string/KharaMeParts"
+            android:label="@string/RealmeHub"
             android:theme="@style/AppTheme"
             >
 
@@ -30,7 +30,7 @@
 
         <activity
             android:name=".KharaMePartsActivity"
-            android:label="@string/KharaMeParts"
+            android:label="@string/RealmeHub"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,7 +40,7 @@
 
         <activity-alias
             android:name=".KharaMeParts"
-            android:label="@string/KharaMeParts"
+            android:label="@string/RealmeHub"
             android:targetActivity="KharaMePartsActivity">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -53,7 +53,7 @@
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.system" />
             <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/KharaMeParts_summary" />
+                android:resource="@string/RealmeHub_summary" />
         </activity-alias>
 
         <activity
