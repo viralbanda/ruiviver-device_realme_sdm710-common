@@ -222,7 +222,7 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    KharaMeParts
+    RealmeHub
 
 # Fingerprint
 PRODUCT_PACKAGES += \
